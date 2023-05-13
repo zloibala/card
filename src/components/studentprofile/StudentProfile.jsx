@@ -66,7 +66,7 @@ const showInfo = studentProfile.map((student, index) => {
           <li>Life Moto: {student.text}</li>
         </ul>
       </div>
-      <button className="btn"> Click to check CV </button>
+      <button className="btn"> Get in Touch </button>
     </div>
   );
 });
