@@ -12,7 +12,7 @@ const studentProfile = [
     name: "Alina",
     src: "https://image.spreadshirtmedia.net/image-server/v1/compositions/T56A1PA4115PT17X175Y0D181916177W7398H6467/views/1,width=550,height=550,appearanceId=1,backgroundColor=FFFFFF,noPt=true/powerpuff-girls-bubbles-petite-sac-en-tissu.jpg",
     email: "alinka@gamil.com",
-    text: " I am Alina, and will be a President of Kyrgyzstan",
+    text: "Treat everyone with kindness and respect, regardless of their position or status in life.",
   },
 
   {
@@ -31,7 +31,7 @@ const studentProfile = [
     name: "Tink",
     src: "https://thumbs.dreamstime.com/b/cartoon-nerd-glasses-smartphone-19126632.jpg",
     email: "tink@gamil.com",
-    text: "Sleep more, live longer, and be healthier.",
+    text: "Sleep more, live longer, and be happy.",
   },
   {
     name: "Murat",
@@ -49,7 +49,7 @@ const studentProfile = [
     name: "Elnura",
     src: "https://media.istockphoto.com/id/1177151439/vector/cartoon-female-ninja-vector-illustration.jpg?s=612x612&w=0&k=20&c=IrvfVE1IGshw9aGTtvXfVbMbqke-ISp6okXiXnSep3k=",
     email: "elnura@gamil.com",
-    text: "I know who you are but you will never know me...",
+    text: "I know who you are but you will never know who i am...",
   },
 ];
 
@@ -63,7 +63,7 @@ const showInfo = studentProfile.map((student, index) => {
         <ul>
           <li>Name: {student.name}</li>
           <li>Email: {student.email}</li>
-          <li>Life Moto: {student.text}</li>
+          <li>Motto: {student.text}</li>
         </ul>
       </div>
       <button className="btn"> Get in Touch </button>
