@@ -29,7 +29,7 @@ const studentProfile = [
   },
   {
     name: "Tink",
-    src: "https://thumbs.dreamstime.com/b/cartoon-nerd-glasses-smartphone-19126632.jpg",
+    src: "https://png.pngtree.com/png-clipart/20210225/ourlarge/pngtree-cute-cartoon-character-avatar-wearing-glasses-png-image_2940625.jpg",
     email: "tink@gamil.com",
     text: "Sleep more, live longer, and be happy.",
   },
@@ -57,7 +57,7 @@ const showInfo = studentProfile.map((student, index) => {
   return (
     <div className="card">
       <div>
-        <img width="100px" src={student.src} key={index} />
+        <img width="100x" src={student.src} key={index} />
       </div>
       <div>
         <ul>
