@@ -49,7 +49,7 @@ const studentProfile = [
     name: "Elnura",
     src: "https://media.istockphoto.com/id/1177151439/vector/cartoon-female-ninja-vector-illustration.jpg?s=612x612&w=0&k=20&c=IrvfVE1IGshw9aGTtvXfVbMbqke-ISp6okXiXnSep3k=",
     email: "elnura@gamil.com",
-    text: "I know who you are but you will never know who i am...",
+    text: "I know who you are but you will never know who i am....",
   },
 ];
 
